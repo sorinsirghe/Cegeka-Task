@@ -1,53 +1,52 @@
-<personal>
-name=Sorin Sirghe
-title=Python Developer
-phone_numbers=
-email=
-links=https://github.com/sorinsirghe
-summary=This is a test summary.
-</personal>
-
-<experience>
-<entry>
-company=Cognizant
-title=Python Developer
-location=Bucharest
-description=Test description
-time_period=Dec 2021 - Present
-technologies=Python, AWS, Postgresql
-</entry>
-<entry>
-company=2nd Company
-title=
-location=Bucharest
-description=Test description
-time_period=
-technologies=
-</entry>
-<entry>
-company=
-title=
-location=
-description=
-time_period=
-technologies=
-</entry>
-</experience>
-
-<education>
-<entry>
-institution=Universitatea Ovidius of Constanta
-location=Constanta
-time_period=
-degree=Bachelor's degree
-</entry>
-</education>
-
-<extra>
-<entry>
-title=Cartea Daliei
-description=Mentor
-location=
-time_period=
-</entry>
-</extra>
+{
+  "personal": {
+    "name": "Sorin Sirghe",
+    "title": "Python Developer",
+    "numbers": "",
+    "email": "",
+    "links": "https://github.com/sorinsirghe",
+    "summary": "This is a test summary."
+  },
+  "experience": [
+    {
+      "company": "Cognizant",
+      "title": "Python Developer",
+      "location": "Bucharest",
+      "description": "Test description",
+      "time_period": "Dec 2021 - Present",
+      "technologies": "Python, AWS, Postgresql"
+    },
+    {
+      "company": "2nd Company",
+      "title": "",
+      "location": "Bucharest",
+      "description": "Test description",
+      "time_period": "",
+      "technologies": ""
+    },
+    {
+      "company": "",
+      "title": "",
+      "location": "",
+      "description": "",
+      "time_period": "",
+      "technologies": ""
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universitatea Ovidius of Constanta",
+      "location": "Constanta",
+      "time_period": "",
+      "degree": "Bachelor's degree"
+    }
+  ],
+  "extra": [
+    {
+      "title": "Cartea Daliei",
+      "description": "Mentor",
+      "location": "",
+      "time_period": ""
+    }
+  ]
+}
